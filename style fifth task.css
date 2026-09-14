@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+}
+#box{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+}
+#box2{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background-color:aqua;
+}
+#box3{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background-color:aquamarine;
+}
+.container{
+    border: 1px solid black;
+    background-color: bisque;
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
+   padding: 10px 5px;
+}
+.list{
+    display: flex;
+    justify-content: flex-end;
+}
+.list li{
+    margin: 5px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#Logo{
+    width: 55px;
+}
+.img-conainer{
+    position: absolute;
+}
